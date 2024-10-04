@@ -1,0 +1,44 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 3rem 0px;
+
+
+}
+
+.card {
+  width: 300px;
+  border: 2px solid #f2eee6;
+  border-radius: 11px;
+
+
+
+}
+
+.imageProjects {
+  width: 100%;
+}
+
+.DownCard {
+  padding: 1.5rem 1rem;
+  text-align: center;
+
+}
+
+.iconsPDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+
+.btn {
+  background-color: #0d261e;
+  color: white;
+  padding: 0.3rem 1.8rem;
+  border: solid 1px white;
+  border-radius: 11px;
+  font-size: 1rem;
+}

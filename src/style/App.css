@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.mainProject {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 50fr auto 80px;
+  background-color: var(--body-background);
+  color: var(--primary);
+
+}
+
+.body {
+  min-height: 100vh;
+}
