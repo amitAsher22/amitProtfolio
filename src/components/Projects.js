@@ -35,7 +35,7 @@ function Projects() {
   ]);
   return (
     <div className="body">
-      <div className="rightAbout">
+      <div className="rightProject">
         <div className="routerAbout">
           <Link to="/">
             <span>Home </span>

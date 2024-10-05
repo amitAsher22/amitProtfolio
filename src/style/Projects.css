@@ -7,8 +7,16 @@
   width: 100%;
 
 
+
 }
 
+.rightProject {
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
 
 .card {
 
