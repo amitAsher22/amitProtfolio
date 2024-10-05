@@ -19,10 +19,11 @@
 .leftAbout {
   display: flex;
   flex-direction: column;
-  justify-content: bottom;
-  background-color: rgb(114, 250, 171);
+  justify-content: center;
+
+
   width: 30%;
-  height: 200px;
+
 }
 
 .routerAbout {

@@ -24,14 +24,19 @@
   --primary: #fffdfa;
 }
 
+
+
 .show {
   display: block;
   visibility: visible !important;
+
 }
 
 .hide {
   display: none;
   visibility: hidden !important;
+  ;
+
 }
 
 .DivImg {

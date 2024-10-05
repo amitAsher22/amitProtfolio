@@ -1,18 +1,19 @@
 .mainFooter {
+  display: flex;
   background-color: var(--body-footer);
   color: var(--primary);
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
 }
 
 
 .divIconsFooter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 3%;
-  margin: auto;
+
+  width: 30%;
+
 
 
 }

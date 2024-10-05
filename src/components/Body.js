@@ -1,12 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 import "../style/App.css";
-import Fullmenu from "../components/Fullmenu";
+// import Fullmenu from "../components/Fullmenu";
 import "../style/Body.css";
-import { ThemeContext } from "../App";
+// import { ThemeContext } from "../App";
 import { Typewriter } from "react-simple-typewriter";
 
 function Body() {
-  const theme = useContext(ThemeContext);
   return (
     <div className="body">
       <div className="containerBody">
@@ -20,7 +19,7 @@ function Body() {
           />
         </span>
       </div>
-      <Fullmenu />
+      {/* <Fullmenu /> */}
     </div>
   );
 }

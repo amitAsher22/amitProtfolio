@@ -37,8 +37,6 @@ function About() {
             </p>
             <span className="niceTomeetYou">Technical Skills & Knowledge</span>
             <div className="TecnologicI">
-              {/* dsdasda */}
-
               <div class="about--widgets">
                 <div class="chip" aria-label="HTML">
                   <svg
