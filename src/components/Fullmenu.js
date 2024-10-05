@@ -8,16 +8,16 @@ function Fullmenu() {
 
   return (
     <div id="full" className={theme.present}>
-      <Link onClick={theme.presentBtn} to="/">
+      <Link id="routLink" onClick={theme.presentBtn} to="/">
         Home
       </Link>
-      <Link onClick={theme.presentBtn} to="/about">
+      <Link id="routLink" onClick={theme.presentBtn} to="/about">
         About
       </Link>
-      <Link onClick={theme.presentBtn} to="/projects">
+      <Link id="routLink" onClick={theme.presentBtn} to="/projects">
         Projects
       </Link>
-      <Link onClick={theme.presentBtn} to="/contact">
+      <Link id="routLink" onClick={theme.presentBtn} to="/contact">
         Contact
       </Link>
     </div>

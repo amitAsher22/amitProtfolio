@@ -22,16 +22,18 @@ function About() {
           <div className="AboutMe">
             <span className="niceTomeetYou">Nice to meet you.</span>
             <p className="textAbout">
-              My journey began at March 2021 after 10 years in the music
-              production industry. Creation is a passion to me, and development
-              of beautiful web pages is one of them.
+              My journey started in 2016 when I took an SEO course. To put what
+              I learned into practice, I built my first website, which sparked
+              my passion for web development. Since then, I have spent a lot of
+              time and effort gaining experience in both frontend and backend
+              development.
             </p>
             <p className="textAbout">
-              I'm a self taught developer and fast independent learner with
-              great soft skills. naturally i am curious and creative, I love
-              research and learn new topics, investing time on solving problems,
-              express my creativity and I enjoy bringing ideas to life in the
-              browser.
+              I have completed two bootcamps and additional courses on Udemy,
+              contributing to over 30 projects on GitHub. I actively participate
+              in online communities and follow YouTube channels to keep
+              improving my knowledge and skills.I want to continue to grow and
+              bring innovative ideas to the company where I will work.
             </p>
             <span className="niceTomeetYou">Technical Skills & Knowledge</span>
             <div className="TecnologicI">
