@@ -16,12 +16,16 @@
   --body-footer: #f2eee6;
   --primary: #0d261e;
 
+
+
 }
 
 .dark {
   --body-background: #060b0d;
   --body-footer: #101517;
   --primary: #fffdfa;
+
+
 }
 
 
@@ -29,13 +33,15 @@
 .show {
   display: block;
   visibility: visible !important;
-
+  transition: opacity 0.3s ease-out, top 0.3s step-end
 }
 
 .hide {
   display: none;
   visibility: hidden !important;
-  ;
+  transition: opacity 0.3s ease-out, top 0.3s step-start;
+  opacity: 1;
+
 
 }
 

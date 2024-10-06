@@ -9,9 +9,138 @@
 
 }
 
+
 #routLink {
   text-decoration: none;
   font-size: 8rem;
   font-weight: bold;
 
+}
+
+
+/* madia quary */
+
+@media only screen and (orientation: portrait) {
+  .mainHeader {
+    width: 90%;
+
+  }
+
+  #full {
+    display: flex;
+    width: 100%;
+
+  }
+
+  #routLink {
+    font-size: 20vw;
+  }
+
+  .containerAbout {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+
+
+  }
+
+  .leftAbout {
+
+    width: 100%;
+    padding-bottom: 5rem;
+
+  }
+
+
+  .routerAbout {
+    display: none;
+  }
+
+  .mainPageTitle {
+    font-size: 20vw;
+  }
+
+  .AboutMe {
+    width: 100%;
+  }
+
+  .rightAbout {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .textAbout {
+    width: 80vw;
+  }
+
+  .niceTomeetYou {
+    font-size: 10vw;
+  }
+
+  .rightAbout {
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 2rem;
+  }
+
+  .iconsPDiv {
+    width: 100%;
+  }
+
+  .pageAbout {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0px;
+  }
+
+  .iconMoon {
+    font-size: 8vw;
+  }
+
+  .iconSun {
+    font-size: 8vw;
+  }
+
+  .iconFooter {
+    font-size: 7vw;
+  }
+
+  .textFooter {
+    font-size: 3vw;
+  }
+
+  .infoContact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone {
+    border: solid 1px;
+
+    height: 100px;
+    border-radius: 11px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    place-items: center;
+    padding: 1rem;
+    margin: 1rem 0px;
+  }
 }
