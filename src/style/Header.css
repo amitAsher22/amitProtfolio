@@ -5,8 +5,7 @@
   align-items: center;
   width: 70%;
   margin: auto;
-
-  height: 100px;
+  height: 100%;
 
 }
 
@@ -21,6 +20,7 @@
 }
 
 .dark {
+
   --body-background: #060b0d;
   --body-footer: #101517;
   --primary: #fffdfa;

@@ -17,13 +17,19 @@ a {
 
 .mainProject {
   min-height: 100vh;
+
   display: grid;
-  grid-template-rows: 50fr auto 80px;
+  grid-template-rows: repeat(2, auto);
   background-color: var(--body-background);
   color: var(--primary);
+  align-items: stretch;
+  align-content: stretch;
+  align-content: space-between;
+
+
 
 }
 
 .body {
-  min-height: 100vh;
+  height: 100%;
 }
