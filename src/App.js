@@ -6,6 +6,7 @@ import About from "./components/About";
 import Fullmenu from "./components/Fullmenu";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import WrongPage from "./components/WrongPage";
 import React, { useState, createContext } from "react";
 
 ///style
@@ -38,6 +39,7 @@ function App() {
         {showHide ? (
           <Routes>
             <Route path="/" element={<Body />} />
+            <Route path="*" element={<WrongPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
