@@ -54,11 +54,12 @@
 
 
   .routerAbout {
-    display: none;
+    display: block;
   }
 
   .mainPageTitle {
-    font-size: 20vw;
+    font-size: 16vw;
+    font-weight: 800;
   }
 
   .AboutMe {
@@ -75,10 +76,14 @@
 
   .textAbout {
     width: 80vw;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
   }
 
   .niceTomeetYou {
     font-size: 7vw;
+    font-weight: 600;
   }
 
   .rightAbout {
@@ -115,7 +120,7 @@
   }
 
   .iconFooter {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   .textFooter {
@@ -134,7 +139,7 @@
 
   .infoContact .phone {
     border: solid 1px;
-    width: 60vw;
+    width: 80vw;
     padding: 0px 2rem;
 
 
@@ -149,4 +154,10 @@
     font-size: 8rem;
     font-weight: 700;
   }
+
+  .typingword span {
+    font-size: 1.3rem;
+  }
+
+
 }
