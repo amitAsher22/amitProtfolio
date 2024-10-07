@@ -6,8 +6,41 @@ import projectImg from "../images/amit.png";
 import food from "../images/food.png";
 import nike from "../images/nike.png";
 
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 function Projects() {
   const [data, setData] = useState([
+    {
+      img: projectImg,
+      title: "clock App",
+      linkGithub: "sdsdsd",
+      Livelink: "dsdsd",
+    },
+    {
+      img: projectImg,
+      title: "clock App",
+      linkGithub: "sdsdsd",
+      Livelink: "dsdsd",
+    },
+    {
+      img: projectImg,
+      title: "clock App",
+      linkGithub: "sdsdsd",
+      Livelink: "dsdsd",
+    },
+    {
+      img: projectImg,
+      title: "clock App",
+      linkGithub: "sdsdsd",
+      Livelink: "dsdsd",
+    },
+    {
+      img: projectImg,
+      title: "clock App",
+      linkGithub: "sdsdsd",
+      Livelink: "dsdsd",
+    },
     {
       img: projectImg,
       title: "clock App",
@@ -33,6 +66,16 @@ function Projects() {
       Livelink: "dsdsd",
     },
   ]);
+
+  useGSAP(() => {
+    // gsap code here...
+    gsap.from(".mainPageTitle", {
+      duration: 1,
+      opacity: 0,
+      y: 100,
+      stagger: 0.15,
+    });
+  });
   return (
     <div className="body">
       <div className="rightProject">

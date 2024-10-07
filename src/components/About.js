@@ -4,7 +4,20 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-router-dom";
 import imgProfile from "../images/amit.png";
 
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 function About() {
+  useGSAP(() => {
+    // gsap code here...
+    gsap.from(".mainPageTitle", {
+      duration: 1,
+      opacity: 0,
+      y: 100,
+      stagger: 0.5,
+    });
+  });
+
   return (
     <div className="body">
       <div className="containerAbout">

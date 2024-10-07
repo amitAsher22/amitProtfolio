@@ -6,6 +6,7 @@ import { BsMoonStarsFill } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseOutline } from "react-icons/io5";
 import imgProfile from "../images/amit.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [bgTheme, setBgTheme] = useState("light");
@@ -28,7 +29,9 @@ function Header() {
   return (
     <div className="mainHeader">
       <div className="DivImg">
-        <img className="imgprofileA" src={imgProfile} alt="imgprofileA" />
+        <Link to="/">
+          <img className="imgprofileA" src={imgProfile} alt="imgprofileA" />
+        </Link>
       </div>
       <div className="leftHeader">
         {theme.lightDark ? (

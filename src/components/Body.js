@@ -1,11 +1,17 @@
 import React from "react";
 import "../style/App.css";
-// import Fullmenu from "../components/Fullmenu";
 import "../style/Body.css";
-// import { ThemeContext } from "../App";
 import { Typewriter } from "react-simple-typewriter";
 
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 function Body() {
+  useGSAP(() => {
+    // gsap code here...
+    gsap.from(".titleHome", { duration: 1, opacity: 0, y: 100, stagger: 0.5 });
+  });
+
   return (
     <div className="body">
       <div className="containerBody">

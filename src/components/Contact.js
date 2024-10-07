@@ -5,8 +5,20 @@ import "../style/Contact.css";
 import { PiPhoneCall } from "react-icons/pi";
 import { GoLocation } from "react-icons/go";
 import { MdOutlineAttachEmail } from "react-icons/md";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
 function Contact() {
+  useGSAP(() => {
+    // gsap code here...
+    gsap.from(".mainPageTitle", {
+      duration: 1,
+      opacity: 0,
+      y: 100,
+      stagger: 0.5,
+    });
+  });
+
   return (
     <div className="body">
       <div className="mainContact">
@@ -24,7 +36,9 @@ function Contact() {
         <div className="infoContact">
           <div className="phone">
             <PiPhoneCall className="iconConatct" />
-            <span>0523157737</span>
+            <a href="tel:+972-523-157-737">
+              <span>0523157737</span>
+            </a>
           </div>
           <div className="phone">
             <GoLocation className="iconConatct" />
@@ -32,7 +46,9 @@ function Contact() {
           </div>
           <div className="phone">
             <MdOutlineAttachEmail className="iconConatct" />
-            <span>AmitAsher4@gmail.com</span>
+            <a href="mailto:Amitasher4@gmail.com">
+              <span>AmitAsher4@gmail.com</span>
+            </a>
           </div>
         </div>
       </div>
