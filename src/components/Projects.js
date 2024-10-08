@@ -5,6 +5,12 @@ import "../style/Projects.css";
 import projectImg from "../images/amit.png";
 import food from "../images/food.png";
 import nike from "../images/nike.png";
+import trip from "../images/trip.png";
+import pagination from "../images/pagination.png";
+import protpolio from "../images/protpolio.png";
+import ecommerce from "../images/ecommerce.png";
+import drive from "../images/drive.png";
+import Crypto from "../images/crypto.png";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -12,40 +18,42 @@ import { useGSAP } from "@gsap/react";
 function Projects() {
   const [data, setData] = useState([
     {
-      img: projectImg,
-      title: "clock App",
-      linkGithub: "sdsdsd",
-      Livelink: "dsdsd",
+      img: trip,
+      title: "Trippy",
+      linkGithub: "https://github.com/amitAsher22/trip_react",
+      Livelink: "https://guileless-stardust-5ccb6b.netlify.app/",
     },
     {
-      img: projectImg,
-      title: "clock App",
-      linkGithub: "sdsdsd",
-      Livelink: "dsdsd",
+      img: pagination,
+      title: "Pagination",
+      linkGithub: "https://github.com/amitAsher22/pagination_react",
+      Livelink: "https://pagination-react-three.vercel.app/",
     },
     {
-      img: projectImg,
-      title: "clock App",
-      linkGithub: "sdsdsd",
-      Livelink: "dsdsd",
+      img: protpolio,
+      title: "protpolio",
+      linkGithub: "https://github.com/amitAsher22/protpolio",
+      Livelink: "https://protpolio.vercel.app/",
     },
     {
-      img: projectImg,
-      title: "clock App",
-      linkGithub: "sdsdsd",
-      Livelink: "dsdsd",
+      img: ecommerce,
+      title: "E-commerce",
+      linkGithub:
+        "https://github.com/amitAsher22/E-commerce_react?tab=readme-ov-file",
+      Livelink: "https://e-commerce-react-aysy.vercel.app/",
     },
     {
-      img: projectImg,
-      title: "clock App",
-      linkGithub: "sdsdsd",
-      Livelink: "dsdsd",
+      img: drive,
+      title: "Find Your Drive",
+      linkGithub: "https://github.com/amitAsher22/find_your_card_react",
+      Livelink: "https://poetic-lollipop-816f9a.netlify.app/",
     },
     {
-      img: projectImg,
-      title: "clock App",
-      linkGithub: "sdsdsd",
-      Livelink: "dsdsd",
+      img: Crypto,
+      title: "Crypto",
+      linkGithub:
+        "https://github.com/amitAsher22/crypto_amit/blob/main/README.md",
+      Livelink: "https://monumental-hummingbird-f43455.netlify.app/",
     },
     {
       img: food,
