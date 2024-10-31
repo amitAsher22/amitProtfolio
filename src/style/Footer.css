@@ -1,0 +1,33 @@
+.mainFooter {
+  display: flex;
+  background-color: var(--body-footer);
+  color: var(--primary);
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
+.divIconsFooter {
+
+  width: 70px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+
+
+
+
+}
+
+.iconFooter {
+  font-size: 1.5rem;
+}
+
+.textFooter {
+  font-size: 0.7rem;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 3rem 0px;
+  width: 100%;
+  flex-wrap: wrap;
+
+
+
+}
+
+.rightProject {
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  width: 80%;
+
+}
+
+.card {
+
+  border: 2px solid #f2eee6;
+  border-radius: 11px;
+  width: 300px
+}
+
+.divImage {
+  height: 300px;
+
+}
+
+.imageProjects {
+  border-radius: 11px 12px 0px 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.DownCard {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  width: 100%;
+
+}
+
+.iconsPDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.btn {
+  background-color: #0d261e;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border: solid 1px white;
+  border-radius: 11px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.titleInfo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 2rem;
+}

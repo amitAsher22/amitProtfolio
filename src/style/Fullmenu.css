@@ -1,0 +1,163 @@
+#full {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* position: relative; */
+
+}
+
+
+#routLink {
+  text-decoration: none;
+  font-size: 8rem;
+  font-weight: bold;
+
+}
+
+
+/* madia quary */
+
+@media only screen and (orientation: portrait) {
+  .mainHeader {
+    width: 90%;
+
+  }
+
+  #full {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+  #routLink {
+    font-size: 20vw;
+  }
+
+  .containerAbout {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+
+
+  }
+
+  .leftAbout {
+
+    width: 100%;
+    padding-bottom: 5rem;
+
+  }
+
+
+  .routerAbout {
+    display: block;
+  }
+
+  .mainPageTitle {
+    font-size: 16vw;
+    font-weight: 800;
+  }
+
+  .AboutMe {
+    width: 100%;
+  }
+
+  .rightAbout {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+  }
+
+  .textAbout {
+    width: 80vw;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+  }
+
+  .niceTomeetYou {
+    font-size: 7vw;
+    font-weight: 600;
+  }
+
+  .rightAbout {
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+
+  }
+
+
+
+  .iconsPDiv {
+    width: 100%;
+  }
+
+  .pageAbout {
+    width: 100%;
+    text-align: left;
+
+
+  }
+
+  .iconMoon {
+    font-size: 6vw;
+  }
+
+  .iconSun {
+    font-size: 6vw;
+  }
+
+  .iconFooter {
+    font-size: 6vw;
+  }
+
+  .textFooter {
+    font-size: 2.3vw;
+  }
+
+  .infoContact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .infoContact .phone {
+    border: solid 1px;
+    width: 80vw;
+    padding: 0px 2rem;
+
+
+  }
+
+  .titleInfo {
+    font-weight: bold;
+    font-size: 20vw;
+  }
+
+  .titleHome {
+    font-size: 8rem;
+    font-weight: 700;
+  }
+
+  .typingword span {
+    font-size: 1.3rem;
+  }
+
+
+}

@@ -1,0 +1,114 @@
+.containerAbout {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.rightAbout {
+  /* background-color: salmon; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1rem;
+}
+
+.leftAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  width: 30%;
+
+}
+
+.routerAbout {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1vw;
+}
+
+.routerAbout a {
+
+  text-decoration: none;
+  font-weight: 400;
+
+}
+
+.routerAboutText {
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+.mainPageTitle {
+
+  font-size: 7vw;
+  font-weight: bold;
+}
+
+.niceTomeetYou {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #52c7a2;
+
+
+
+}
+
+.imgAbout {
+  width: 100%;
+}
+
+.AboutMe {
+  padding: 1rem 0px;
+}
+
+.textAbout {
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+  padding: 2rem 0px;
+}
+
+a {
+  color: inherit;
+}
+
+/* langauge icons */
+
+.TecnologicI {
+  padding: 1rem 0px;
+}
+
+
+.about--widgets {
+
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.chip {
+  align-items: center;
+  background-color: #0d261e;
+  border-radius: 1rem;
+  color: #fffdf9;
+  display: flex;
+  font-family: Poppins, sans-serif !important;
+  font-size: 13px;
+  font-weight: 700;
+  gap: .3rem;
+  letter-spacing: 2px;
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+  min-width: 80px;
+  padding: .2rem .5rem;
+  transition: all .2s ease-in-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
