@@ -36,9 +36,10 @@ function Contact() {
         <div className="infoContact">
           <div className="phone">
             <PiPhoneCall className="iconConatct" />
-            <a href="tel:+972-523-157-737">
-              <span>0523157737</span>
+            <a href="tel:+972523157737">
+              <span>0523157737 -1</span>
             </a>
+            <Link to="tel:+972523157737">9876543210</Link>
           </div>
           <div className="phone">
             <GoLocation className="iconConatct" />
@@ -46,9 +47,15 @@ function Contact() {
           </div>
           <div className="phone">
             <MdOutlineAttachEmail className="iconConatct" />
-            <a href="mailto:AmitAsher4@gmail.com" target="_blank">
+            <a href="mailto:amitAsher4@gmail.com" target="_blank">
               <span>AmitAsher4@gmail.com</span>
             </a>
+            <Link
+              to="mailto:amitAsher4@gmail.com"
+              onClick={() => (window.location = "mailto:amitAsher4@gmail.com")}
+            >
+              Contact Me
+            </Link>
           </div>
         </div>
       </div>
